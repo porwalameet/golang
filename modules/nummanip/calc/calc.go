@@ -4,7 +4,7 @@ package calc
 
 func Add(number ...int ) int {
 	sum := 0
-	for _, num := range numbers {
+	for _, num := range number {
 		sum += num
 	}
 
